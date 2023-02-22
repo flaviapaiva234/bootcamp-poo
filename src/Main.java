@@ -34,13 +34,23 @@ public class Main {
         devFlavia.setNome("Flavia");
         devFlavia.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Flávia" + devFlavia.getConteudosInscritos());
+        devFlavia.progredir();
+        devFlavia.progredir();
+        System.out.println("--");
+        System.out.println("Conteúdos Inscritos Flávia" + devFlavia.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Flávia" + devFlavia.getConteudosConcluidos());
+
+
+        System.out.println("---------------------------------------------");
 
         Dev devClarice = new Dev();
         devClarice.setNome("Cler");
         devClarice.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Clér" + devClarice.getConteudosInscritos());
-        System.out.println("Conteúdos Concluidos Clér" + devClarice.getConteudosConcluidos());
+        devClarice.progredir();
+        System.out.println("--");
+        System.out.println("Conteúdos Inscritos Clér" + devClarice.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Clér" + devClarice.getConteudosConcluidos());
 
     }
 }
