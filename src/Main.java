@@ -31,12 +31,16 @@ public class Main {
         bootcamp.getConteudos().add(mentoria);
 
         Dev devFlavia = new Dev();
-        devFlavia.setNome("Camila");
-        System.out.println("Conteúdos Inscritos" + devFlavia.getConteudosInscritos());
+        devFlavia.setNome("Flavia");
+        devFlavia.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Flávia" + devFlavia.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Flávia" + devFlavia.getConteudosConcluidos());
 
         Dev devClarice = new Dev();
         devClarice.setNome("Cler");
-        System.out.println("Conteúdos Inscritos" + devClarice.getConteudosInscritos());
+        devClarice.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Clér" + devClarice.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos Clér" + devClarice.getConteudosConcluidos());
 
     }
 }
