@@ -26,7 +26,12 @@ public class Dev {
         }
     }
 
-    public void calcularTotalXp() {}
+    public double calcularTotalXp() {
+        return this.conteudosConcluidos
+                .stream()
+                .mapToDouble(Conteudo::calcularXp)   // Está pegando o conteudo  calcularXP e somando com sun();
+                .sum();
+    }
 
 
     public String getNome() {

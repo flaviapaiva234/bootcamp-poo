@@ -6,7 +6,7 @@ public abstract class Conteudo {  // Herança / A abstrada classe conteudo é m�
     private String titulo;
     private String descricao;
 
-    public abstract double caucularXp();
+    public abstract double calcularXp();
 
     public String getTitulo() {
         return titulo;
