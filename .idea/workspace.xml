@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06223bb0-65ff-4207-88b0-eb4344fa8033" name="Changes" comment="sun calcularTotlaXP">
+    <list default="true" id="06223bb0-65ff-4207-88b0-eb4344fa8033" name="Changes" comment="calcularTotlaXP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677068470256</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="calcularTotlaXP">
+      <created>1677068998423</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677068998423</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,7 +161,8 @@
     <MESSAGE value="Add conteudos ao conteudosInscritos" />
     <MESSAGE value="if else progredir e get conteudosInscritos" />
     <MESSAGE value="sun calcularTotlaXP" />
-    <option name="LAST_COMMIT_MESSAGE" value="sun calcularTotlaXP" />
+    <MESSAGE value="calcularTotlaXP" />
+    <option name="LAST_COMMIT_MESSAGE" value="calcularTotlaXP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
