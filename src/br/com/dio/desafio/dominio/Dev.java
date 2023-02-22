@@ -10,9 +10,13 @@ public class Dev {
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>(); // a medida que forem concluidos os cursos, é para colocar na mesma ordem
 
 
-    public void inscreverBootcamp(Bootcamp bootcamp){}
+    public void inscreverBootcamp(Bootcamp bootcamp){
+        this.conteudosInscritos.addAll(bootcamp.getConteudos());   //O get está pegando tudo do conteúdo e adicionando no conteudos inscritos
+    }
 
-    public void progredir() {}
+    public void progredir() {
+        this.conteudosInscritos.stream().findFirst();  // pegar os cursor na ordem em que foi adicionado na plataforma
+    }
 
     public void calcularTotalXp() {}
 
