@@ -36,9 +36,11 @@ public class Main {
         System.out.println("Conteúdos Inscritos Flávia" + devFlavia.getConteudosInscritos());
         devFlavia.progredir();
         devFlavia.progredir();
+        devFlavia.progredir();
         System.out.println("--");
         System.out.println("Conteúdos Inscritos Flávia" + devFlavia.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Flávia" + devFlavia.getConteudosConcluidos());
+        System.out.println("XP: " + devFlavia.calcularTotalXp());
 
 
         System.out.println("---------------------------------------------");
@@ -48,9 +50,23 @@ public class Main {
         devClarice.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Clér" + devClarice.getConteudosInscritos());
         devClarice.progredir();
+        devClarice.progredir();
         System.out.println("--");
         System.out.println("Conteúdos Inscritos Clér" + devClarice.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Clér" + devClarice.getConteudosConcluidos());
+        System.out.println("XP: " + devClarice.calcularTotalXp());
+
+        System.out.println("---------------------------------------------");
+
+        Dev devMaria = new Dev();
+        devMaria.setNome("Cler");
+        devMaria.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Maria" + devMaria.getConteudosInscritos());
+        devMaria.progredir();
+        System.out.println("--");
+        System.out.println("Conteúdos Inscritos Maria" + devMaria.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Maria" + devMaria.getConteudosConcluidos());
+        System.out.println("XP: " + devMaria.calcularTotalXp());
 
     }
 }
