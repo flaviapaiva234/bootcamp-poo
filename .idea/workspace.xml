@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06223bb0-65ff-4207-88b0-eb4344fa8033" name="Changes" comment="Classes Bootcamp e Dev Getter and Setter">
+    <list default="true" id="06223bb0-65ff-4207-88b0-eb4344fa8033" name="Changes" comment="Add conteudos ao conteudosInscritos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
     </list>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676945504201</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add conteudos ao conteudosInscritos">
+      <created>1677066352106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677066352106</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,7 +137,8 @@
     <MESSAGE value="Classe Mãe Conteudo" />
     <MESSAGE value="Classes Bootcamp e Dev" />
     <MESSAGE value="Classes Bootcamp e Dev Getter and Setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes Bootcamp e Dev Getter and Setter" />
+    <MESSAGE value="Add conteudos ao conteudosInscritos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add conteudos ao conteudosInscritos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

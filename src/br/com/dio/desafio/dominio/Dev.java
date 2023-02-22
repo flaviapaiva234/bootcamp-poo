@@ -2,6 +2,7 @@ package br.com.dio.desafio.dominio;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Dev {
@@ -11,11 +12,18 @@ public class Dev {
 
 
     public void inscreverBootcamp(Bootcamp bootcamp){
-        this.conteudosInscritos.addAll(bootcamp.getConteudos());   //O get está pegando tudo do conteúdo e adicionando no conteudos inscritos
+        this.conteudosInscritos.addAll(bootcamp.getConteudos());   // 1º O get está pegando tudo do conteúdo e adicionando no conteudos inscritos
+        bootcamp.getDevsIncritos().add(this);   // 2º O get está pegando os DevsInscritos e adicionando a class Dev
     }
 
     public void progredir() {
-        this.conteudosInscritos.stream().findFirst();  // pegar os cursor na ordem em que foi adicionado na plataforma
+        Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();  // pegar os cursor na ordem em que foi adicionado na plataforma
+        if(conteudo.isPresent()){
+            this.conteudosConcluidos.add(conteudo.get());
+            this.conteudosInscritos.remove(conteudo.get());
+        } else {
+            System.err.println("Você não se inscrevel em conteúdo nenhum, por favor se inscreva primeiro. ");
+        }
     }
 
     public void calcularTotalXp() {}
