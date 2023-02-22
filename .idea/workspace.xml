@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06223bb0-65ff-4207-88b0-eb4344fa8033" name="Changes" comment="if else progredir e get conteudosInscritos">
+    <list default="true" id="06223bb0-65ff-4207-88b0-eb4344fa8033" name="Changes" comment="sun calcularTotlaXP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677067585360</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sun calcularTotlaXP">
+      <created>1677068470256</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677068470256</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,7 +154,8 @@
     <MESSAGE value="Classes Bootcamp e Dev Getter and Setter" />
     <MESSAGE value="Add conteudos ao conteudosInscritos" />
     <MESSAGE value="if else progredir e get conteudosInscritos" />
-    <option name="LAST_COMMIT_MESSAGE" value="if else progredir e get conteudosInscritos" />
+    <MESSAGE value="sun calcularTotlaXP" />
+    <option name="LAST_COMMIT_MESSAGE" value="sun calcularTotlaXP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
